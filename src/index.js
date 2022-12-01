@@ -1,10 +1,10 @@
 import _ from 'lodash';
 import './index.css';
 
-function component() {
-    const element = document.getElementById('app')
+(function component() {
+    const app = document.getElementById('app');
+    const element = document.createElement('div');
+    element.classList.add('box');
     element.innerHTML = _.join(['Hello', 'webpack3'], ['']);
-    return element;
-}
-
-document.body.appendChild(component());
+    app.appendChild(element);
+})()
