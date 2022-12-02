@@ -1,7 +1,6 @@
 import _ from 'lodash';
 import printMe from './print.js';
 
-const app = document.getElementById('app');
 function component() { 
     const element = document.createElement('div');
     const btn = document.createElement('button');
@@ -12,4 +11,4 @@ function component() {
     element.appendChild(btn);
     return element; 
 }
-app.appendChild(component());
+document.body.appendChild(component());
