@@ -147,7 +147,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _chinese_icon_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./chinese_icon.png */ \"./src/chinese_icon.png\");\n\n\n\n\n(function component() {\n    const app = document.getElementById('app');\n    const element = document.createElement('div');\n    element.classList.add('box');\n    element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join(['世界', '你好'], ['']);\n    const myIcon = new Image();\n    myIcon.src = _chinese_icon_png__WEBPACK_IMPORTED_MODULE_2__;\n    element.appendChild(myIcon);\n    app.appendChild(element);\n})()\n\n\n//# sourceURL=webpack://webpacktest1/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _chinese_icon_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./chinese_icon.png */ \"./src/chinese_icon.png\");\n/* harmony import */ var _data_json5__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./data.json5 */ \"./src/data.json5\");\n\n\n\n\n\n(function component() {\n    const app = document.getElementById('app');\n    const element = document.createElement('div');\n    element.classList.add('box');\n    element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join(['世界', '你好'], ['']);\n    const myIcon = new Image();\n    myIcon.src = _chinese_icon_png__WEBPACK_IMPORTED_MODULE_2__;\n    \n    console.log(_data_json5__WEBPACK_IMPORTED_MODULE_3__.title)\n    console.log(_data_json5__WEBPACK_IMPORTED_MODULE_3__.owner.name)\n    element.appendChild(myIcon);\n    app.appendChild(element);\n})()\n\n\n//# sourceURL=webpack://webpacktest1/./src/index.js?");
 
 /***/ }),
 
@@ -181,6 +181,17 @@ eval("module.exports = __webpack_require__.p + \"0c789141d21ce372b6f3.woff\";\n\
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"9cefde9860aa960ff777.woff2\";\n\n//# sourceURL=webpack://webpacktest1/./src/my-font.woff2?");
+
+/***/ }),
+
+/***/ "./src/data.json5":
+/*!************************!*\
+  !*** ./src/data.json5 ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+eval("module.exports = JSON.parse('{\"title\":\"JSON5 Example\",\"owner\":{\"name\":\"Tom Preston-Werner\",\"organization\":\"GitHub\",\"bio\":\"GitHub Cofounder & CEO\\\\n    Likes tater tots and beer.\",\"dob\":\"1979-05-27T07:32:00.000Z\"}}');\n\n//# sourceURL=webpack://webpacktest1/./src/data.json5?");
 
 /***/ })
 

@@ -1,4 +1,5 @@
 const path = require('path');
+const json5 = require('json5');
 
 module.exports = {
     mode: 'development',
@@ -20,7 +21,22 @@ module.exports = {
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/i,
                 type: 'asset/resource'
-            }
+            },
+            {
+                test: /\.(csv|tsv)$/i,
+                use: ['csv-loader']
+            },
+            {
+                test: /\.xml$/i,
+                use: ['xml-loader']
+            },
+            {
+                test: /\.json5$/i,
+                type: 'json',
+                parser: {
+                  parse: json5.parse,
+                },
+            },
         ]
     }
 }
