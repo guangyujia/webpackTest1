@@ -13,6 +13,12 @@ module.exports = {
         clean: true
     },
     devtool: 'inline-source-map',
+    devServer: {
+        static: './dist'
+    },
+    optimization: {
+        runtimeChunk: 'single'
+    },
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Development'

@@ -9,7 +9,7 @@ function component() {
     btn.innerHTML = 'Click me and check the console!';
     btn.onclick = printMe;
     element.appendChild(btn);
-    conssle.log('12')
+    console.log('12')
     return element; 
 }
 document.body.appendChild(component());
