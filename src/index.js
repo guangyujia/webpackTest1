@@ -1,6 +1,5 @@
 import _ from 'lodash';
 import Print from './print';
-
 function getComponent() { 
     return import('lodash')
     .then(({default: _}) => {
