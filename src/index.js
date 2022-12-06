@@ -7,7 +7,6 @@ function getComponent() {
     })
     .catch(err => 'An error occured while loading the component');
 }
-
 getComponent().then((component) => {
     document.body.appendChild(component)
 })
