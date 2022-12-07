@@ -4,10 +4,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     mode: 'none',
     entry: './src/index.js',
+    experiments: {
+      outputModule: true
+    },
     output: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
-        library: {type: 'window', name: 'MyLibrary'},
+        library: {type: 'module'},
         clean: true,
     },
     plugins: [
