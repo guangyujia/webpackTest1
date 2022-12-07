@@ -44,6 +44,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-exports.MyLibrary = __webpack_exports__;
+module.exports.MyLibrary = __webpack_exports__;
 /******/ })()
 ;
