@@ -7,7 +7,7 @@ module.exports = {
     output: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
-        library: {type: 'var', name: 'MyLibrary'},
+        library: {type: 'window', name: 'MyLibrary'},
         clean: true,
     },
     plugins: [
