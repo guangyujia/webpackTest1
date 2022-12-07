@@ -1,3 +1,4 @@
+var MyLibrary;
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	// The require scope
@@ -43,5 +44,7 @@ __webpack_require__.r(__webpack_exports__);
 }
 
 
+
+MyLibrary = __webpack_exports__;
 /******/ })()
 ;
