@@ -7,7 +7,7 @@ module.exports = {
     output: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
-        library: {type: 'commonjs2', name: 'MyLibrary'},
+        library: {type: 'umd', name: 'MyLibrary'},
         clean: true,
     },
     plugins: [
