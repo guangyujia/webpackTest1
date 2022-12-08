@@ -20,6 +20,7 @@
   "homepage": "https://github.com/guangyujia/webpackTest1#readme",
   "devDependencies": {
     "html-webpack-plugin": "^5.5.0",
+    "lodash": "^4.17.21",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   }

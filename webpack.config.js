@@ -5,9 +5,8 @@ module.exports = {
     mode: 'none',
     entry: './src/index.js',
     output: {
-        filename: 'main.js',
+        filename: 'webpack-numbers.js',
         path: path.resolve(__dirname, 'dist'),
-        library: {type: 'umd', name: 'MyLibrary'},
         clean: true,
     },
     plugins: [
