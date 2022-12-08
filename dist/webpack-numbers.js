@@ -1,3 +1,4 @@
+var webpackNumbers;
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ([
 /* 0 */,
@@ -17345,5 +17346,6 @@ function numToWord(num) {
 
 })();
 
+webpackNumbers = __webpack_exports__;
 /******/ })()
 ;
